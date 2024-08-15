@@ -1,0 +1,107 @@
+@import"reset.css";
+
+/* 全域設定 */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  body{
+    font-family:"Bruno Ace SC", sans-serif;
+	line-height: 1.5;
+	
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+/* 重複樣式 */
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+
+.bg-1{
+    background-color: #AA0601;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* nav */
+
+nav ul{
+    gap: 30px;
+}
+
+.nav-img{
+    width: 80px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+
+
+}
+
+
+
+
+/* header */
+
+
+
+
+
+
+
+
+
+
+
+/* intro */
+
+
+
+/* product */
+
+
+/* content */
+
+
+/* recommend */
+
+/* contact */
+
+/* footer */
