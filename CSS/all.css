@@ -113,10 +113,22 @@ h2{
     margin-right: 24px;
 }
 
+.mt-4{
+    margin-top: 16px;
+}
+
 .mt-6{
     margin-top: 24px;
 }
 
+.mb-2{
+    margin-bottom: 8px;
+}
+
+
+.mb-12{
+    margin-bottom: 48px;
+}
 
 
 
@@ -241,7 +253,26 @@ nav ul{
 
 
 
+
+
 /* recommend */
+
+.recommend-item{
+    width: 25%;
+    height: 511px;
+    border: #AA0601 1px solid;
+}
+
+.recommend-p{
+    margin-top: 48px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
 
 /* contact */
 
