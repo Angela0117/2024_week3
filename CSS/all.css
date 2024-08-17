@@ -52,6 +52,10 @@ h2{
     justify-content: flex-end;
 }
 
+.jcc{
+    justify-content: center;
+}
+
 .aic{
     align-items: center;
 }
@@ -96,7 +100,7 @@ h2{
     padding-bottom: 8px;
 }
 
-    .pt-6{
+.pt-6{
     padding-top: 24px;
 }
 
@@ -188,7 +192,7 @@ nav ul{
 
 /* intro */
 
-.intro{
+.bg-2{
     background: #FBF2F2;
 }
 
@@ -259,21 +263,49 @@ nav ul{
 
 .recommend-item{
     width: 25%;
-    height: 511px;
-    border: #AA0601 1px solid;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+
 }
 
-.recommend-p{
+/*.recommend-p{
     margin-top: 48px;
     margin-left: 16px;
     margin-bottom: 16px;
+}*/
+
+.recommend-content{
+    padding: 16px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recommend-p{
+    color: #707070;
+    font-size: 14px;
+}
+
+
+/* contact */
+
+.contact-content{
+    width: 50%;
+}
+
+.contact-block{
+    width: 100%;
+    border: 1px solid #000000;
+    color: #000000;
+    opacity: 0.2;
+
+
 }
 
 
 
 
-
-
-/* contact */
 
 /* footer */
