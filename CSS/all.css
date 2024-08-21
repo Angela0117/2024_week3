@@ -4,6 +4,7 @@
 
 *, *::after, *::before {
     box-sizing: border-box;
+    outline: 1px solid #000000;
   }
 
 
@@ -16,12 +17,14 @@
   body{
     font-family:"Noto Sans Traditional Chinese","Roboto", sans-serif;
 	line-height: 1.5;
+    
 	
 }
 
 a{
 	text-decoration: none;
 	display: inline-block;
+    color: #FFFFFF;
 }
 
 h2{
@@ -70,8 +73,15 @@ h2{
     color: #FFFFFF;
 }
 
+.text-14{
+    font-size: 14px;
+}
 .text-20{
     font-size: 20px;
+}
+
+.text-36{
+    font-size: 36px;
 }
 
 .text-italic{
@@ -179,8 +189,9 @@ h2{
 }
 
 
-
-
+.w-50{
+    width: 50%;
+}
 
 
 
@@ -388,9 +399,16 @@ nav ul{
 
 .material-symbols-outlined{
     color: #FFFFFF;
+    margin-right: 22px;
 }
 
-.footer-img{
+
+.footer-img img{
     width: 48px;
     height: 48px;
+}
+
+.footer-content span{
+    font-size: 36px;
+  
 }
