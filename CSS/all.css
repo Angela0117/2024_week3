@@ -267,7 +267,11 @@ nav li a:hover{
  /* header 768px RWD */
 @media (max-width: 768px) {
 
-    background-image: url(../week3-4_img/home-header-sm.png);
+    .header-bg{
+        background-image: url(../week3-4_img/home-header-sm.png);
+
+    }
+
     .header-text{
         display: block;
     }
@@ -319,6 +323,12 @@ nav li a:hover{
     
     .intro-item{
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro-img{
+        margin-top: 24px;
+        
     }
 
 
@@ -356,6 +366,7 @@ nav li a:hover{
     }
     .product-item{
         width: 100%;
+        margin: 0px;
     }
     
 }
@@ -394,7 +405,7 @@ nav li a:hover{
        width: 100%;
     }
 
-    .content-img-1{
+    /*.content-img-1{
         background-image: url(../week3-4_img/home-section4-1-sm.png);
        
     }
@@ -402,7 +413,7 @@ nav li a:hover{
     .content-img-2{
         background-image: url(../week3-4_img/home-section4-2-sm.png);
        
-    }
+    }*/
 
 
 
@@ -448,6 +459,7 @@ nav li a:hover{
     }
     .recommend-item{
         width: 100%;
+        margin: 0;
     }
 }
 
