@@ -179,7 +179,7 @@ nav ul{
     gap: 30px;
 }
 
-.nav-img{
+.nav-img img{
     width: 80px;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -193,8 +193,34 @@ nav li a:hover{
 /* nav 768px RWD */
 @media (max-width: 768px) {
     
+    
+    .nav-content{
+        flex-direction: column;
+        
+    }
+    
+    .nav-img{
+       padding: 12px 0px;
     }
 
+    nav ul{
+        /*width: 100%;*/
+        flex-wrap: wrap;
+        gap: 0;
+        margin: 0px -12px;
+    }
+
+    nav ul li{
+        width: 50%;
+        border: #ffffff 1px solid;
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0;
+        flex-wrap: wrap;
+        padding: 12px 62px;
+    }
+
+    }
 
 
 /* header */
@@ -240,6 +266,20 @@ nav li a:hover{
 
  /* header 768px RWD */
 @media (max-width: 768px) {
+
+    background-image: url(../week3-4_img/home-header-sm.png);
+    .header-text{
+        display: block;
+    }
+    
+    .header-text p{
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 24px;
+    }
+
     
 }
 
@@ -268,6 +308,24 @@ nav li a:hover{
 
 /* intro 768px RWD */
 @media (max-width: 768px) {
+
+    .intro h2{
+        font-size: 24px;
+    } 
+    
+    .intro-list{
+        flex-wrap: wrap;
+    }
+    
+    .intro-item{
+        width: 100%;
+    }
+
+
+
+
+
+
     
 }
 
@@ -288,6 +346,17 @@ nav li a:hover{
 
 /* product 768px RWD */
 @media (max-width: 768px) {
+
+    .product h2{
+        font-size: 24px;
+    }
+
+    .product-list{
+        flex-wrap: wrap;
+    }
+    .product-item{
+        width: 100%;
+    }
     
 }
 
@@ -298,7 +367,6 @@ nav li a:hover{
 .content{
     background-image: url(/week3-4_img/index-bg.png);
     max-width: 100%;
-    height: 608px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -317,7 +385,27 @@ nav li a:hover{
 
 /* content 768px RWD */
 @media (max-width: 768px) {
-    
+
+    .content-list{
+        flex-wrap: wrap;
+    }
+
+    .content-item{
+       width: 100%;
+    }
+
+    .content-img-1{
+        background-image: url(../week3-4_img/home-section4-1-sm.png);
+       
+    }
+
+    .content-img-2{
+        background-image: url(../week3-4_img/home-section4-2-sm.png);
+       
+    }
+
+
+
 }
 
 
@@ -353,7 +441,14 @@ nav li a:hover{
 
 /* recommend 768px RWD */
 @media (max-width: 768px) {
-    
+
+    .recommend-list{
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .recommend-item{
+        width: 100%;
+    }
 }
 
 /* contact */
@@ -395,6 +490,16 @@ nav li a:hover{
 
 /* contact 768px RWD */
 @media (max-width: 768px) {
+
+    .contact-content{
+        width: 100%;
+    }
+
+    .contact-box img{
+        background-image: url(../week3-4_img/ic_check_box_outline_blank_24px@2x.png);
+    }
+
+
     
 }
 
@@ -429,5 +534,54 @@ nav li a:hover{
 
 /* footer 768px RWD */
 @media (max-width: 768px) {
+
+    footer{
+        font-size: 16px;
+    }
+
+    .footer-item1{
+        justify-content:flex-end;
+    }
+
+    .footer-list{
+        display: none;
+    }
+
+    .footer-item{
+        font-size: 16px;
+      
+    }
+
+    .mt--6{
+        margin-top: -24px;
+        
+
+    }
+
+    .footer-content span{
+        font-size: 16px;
+      
+    }
+
+    .footer-img img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-item-4{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-item-p{
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+
+
+
+    }
+
+
     
 }
