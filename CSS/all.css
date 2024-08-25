@@ -35,10 +35,19 @@ h2{
 /* 重複樣式 */
 
 .container{
-    max-width: 1296px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0px 12px;
 }
+
+@media (max-width: 992px) {
+    .container{
+        padding: 0px 36px;
+    }
+}
+
+
+
 
 .d-flex{
     display: flex;
@@ -190,7 +199,13 @@ nav li a:hover{
 }
 
 
-/* nav 768px RWD */
+/* nav RWD */
+
+@media (max-width: 992px) {
+
+    
+}
+
 @media (max-width: 768px) {
     
     
@@ -229,12 +244,13 @@ nav li a:hover{
     max-width: 100%;
     height: 787px;
     background-image: url(../week3-4_img/home-header.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .header-text{
-    width: 50%;
+    
     text-align: right;
     margin-top: 296px;
 }
@@ -264,7 +280,9 @@ nav li a:hover{
     background: #650300;
  }
 
- /* header 768px RWD */
+ /* header RWD */
+
+
 @media (max-width: 768px) {
 
     .header-bg{
@@ -310,7 +328,26 @@ nav li a:hover{
     margin-bottom: 8px;
 }
 
-/* intro 768px RWD */
+/* intro RWD */
+
+@media (max-width: 992px) {
+
+    intro.container{
+        padding: 0px 36px;
+    }
+
+    .intro-list{
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 24px;
+    }
+    
+    .intro-item{
+        width: 48%;
+        margin-right: 0px;
+    }
+    
+}
 @media (max-width: 768px) {
 
     .intro h2{
@@ -331,12 +368,6 @@ nav li a:hover{
         
     }
 
-
-
-
-
-
-    
 }
 
 /* product */
@@ -354,12 +385,9 @@ nav li a:hover{
 }
 
 
-/* product 768px RWD */
-@media (max-width: 768px) {
+/* product  RWD */
 
-    .product h2{
-        font-size: 24px;
-    }
+@media (max-width: 992px) {
 
     .product-list{
         flex-wrap: wrap;
@@ -367,10 +395,27 @@ nav li a:hover{
     .product-item{
         width: 100%;
         margin: 0px;
+        text-align: center; 
+    }
+    .product img{
+        width: 336px;
+        height: 336px;
     }
     
 }
+@media (max-width: 768px) {
 
+    .product h2{
+        font-size: 24px;
+    }
+    .product-list{
+        flex-wrap: wrap;
+    }
+    .product-item{
+        width: 100%;
+        margin: 0px;
+    }
+}
 
 /* content */
 
@@ -394,8 +439,14 @@ nav li a:hover{
 }
 
 
-/* content 768px RWD */
-@media (max-width: 768px) {
+/* content  RWD */
+
+@media (max-width: 992px) {
+
+    .content{
+        background-image: url(/week3-4_img/index-bg-md.png);
+        background-position: center;
+    }
 
     .content-list{
         flex-wrap: wrap;
@@ -405,17 +456,22 @@ nav li a:hover{
        width: 100%;
     }
 
-    /*.content-img-1{
-        background-image: url(../week3-4_img/home-section4-1-sm.png);
-       
+
+    
+}
+@media (max-width: 768px) {
+
+    .content{
+        background-image: url(/week3-4_img/index-bg-sm.png);
     }
 
-    .content-img-2{
-        background-image: url(../week3-4_img/home-section4-2-sm.png);
-       
-    }*/
+    .content-list{
+        flex-wrap: wrap;
+    }
 
-
+    .content-item{
+       width: 100%;
+    }
 
 }
 
@@ -450,7 +506,24 @@ nav li a:hover{
 }
 
 
-/* recommend 768px RWD */
+/* recommend  RWD */
+
+@media (max-width: 992px) {
+
+    .recommend-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .recommend-item{
+        width: 48%;
+        margin-right: 0px;
+        
+    }
+}
+
+    
+
 @media (max-width: 768px) {
 
     .recommend-list{
@@ -466,7 +539,7 @@ nav li a:hover{
 /* contact */
 
 .contact-content{
-    width: 50%;
+    width: 636px;
 }
 
 .contact-block{
@@ -477,12 +550,21 @@ nav li a:hover{
     padding-left: 12px;
 }
 
+.contact-box img{
+    width: 24px;
+    height: 24px;
+}
+
 .pb3{
     padding-bottom: 6px;
 }
 
 .pb106{
     padding-bottom: 106px;
+}
+
+.ta-c{
+    text-align: center;
 }
 
 .contact-btn{
@@ -500,17 +582,27 @@ nav li a:hover{
    background: #650300;
 }
 
-/* contact 768px RWD */
-@media (max-width: 768px) {
+/* contact  RWD */
+
+@media (max-width: 992px) {
 
     .contact-content{
-        width: 100%;
+        width: 576px;
     }
 
-    .contact-box img{
-        background-image: url(../week3-4_img/ic_check_box_outline_blank_24px@2x.png);
+    .contact-content p,li{
+        font-size: 16px;
     }
 
+
+    .contact-btn{
+        width: 336px;
+        font-size: 16px;
+    }
+
+    
+}
+@media (max-width: 768px) {
 
     
 }
@@ -544,7 +636,12 @@ nav li a:hover{
 
 
 
-/* footer 768px RWD */
+/* footer  RWD */
+
+@media (max-width: 992px) {
+
+    
+}
 @media (max-width: 768px) {
 
     footer{
