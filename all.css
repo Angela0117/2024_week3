@@ -237,7 +237,7 @@ nav li a:hover{
     max-width: 100%;
     height: calc(100vh - 80px);/*使背景符合100%瀏覽器大小，並扣除nav的80高度*/
     /*height: 787px;*/
-    background-image: url(../week3-4_img/home-header.png);
+    background-image: url(./week3-4_img/home-header.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
