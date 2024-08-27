@@ -280,7 +280,7 @@ nav li a:hover{
 @media (max-width: 768px) {
 
     .header-bg{
-        background-image: url(../week3-4_img/home-header-sm.png);
+        background-image: url(./week3-4_img/home-header-sm.png);
     }
 
     .header-text{
@@ -408,7 +408,7 @@ nav li a:hover{
 /* content */
 
 .content{
-    background-image: url(/week3-4_img/index-bg.png);
+    background-image: url(../week3-4_img/index-bg.png);
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
