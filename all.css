@@ -205,8 +205,16 @@ nav li a:hover{
 
 @media (max-width: 768px) {
 
+    nav .container{
+        padding-right: 0px;
+        padding-left: 0px;
+        max-width: 100%;
+        /*修改*/
+    }
+
     .nav-content{
         flex-direction: column;
+    
     }
     
     .nav-img{
@@ -302,6 +310,9 @@ nav li a:hover{
     background: #FBF2F2;
 }
 
+.intro-list{
+    gap: 24px;/*修改*/
+}
 .intro-item{
     width: 25%;
 }
@@ -332,7 +343,6 @@ nav li a:hover{
     .intro-list{
         flex-wrap: wrap;
         justify-content:center;
-        gap: 24px;
     }
     
     .intro-item{
@@ -616,6 +626,10 @@ nav li a:hover{
 
     .footer-content span{
         font-size: 16px;
+    }
+
+    .footer-img{
+        gap: 12px;/*修改*/
     }
 
     .footer-img img{
