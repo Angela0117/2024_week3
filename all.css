@@ -185,50 +185,50 @@ h2{
 
 
 
-/* nav */
+/* header */
 
-nav ul{
+header ul{
     gap: 64px;
     padding: 25px 0px;
 }
 
-.nav-img img{
+.header-img img{
     width: 80px;
 }
 
-nav li a:hover{
+header li a:hover{
     color: #DEE2E6;
 }
 
 
-/* nav RWD */
+/* header RWD */
 
 @media (max-width: 768px) {
 
-    nav .container{
+    header .container{
         padding-right: 0px;
         padding-left: 0px;
         max-width: 100%;
         /*修改*/
     }
 
-    .nav-content{
+    .header-content{
         flex-direction: column;
     
     }
     
-    .nav-img{
+    .header-img{
        padding: 12px 0px;
     }
 
-    nav ul{
+    header ul{
         width: 100%;
         flex-wrap: wrap;
         gap: 0;
         margin: 0px -12px;
     }
 
-    nav ul li{
+    header ul li{
         width: 50%;
         border: #ffffff 1px solid;
         font-size: 16px;
@@ -239,9 +239,9 @@ nav li a:hover{
     }
     }
 
-/* header */
+/* banner */
 
-.header-bg{
+.banner-bg{
     max-width: 100%;
     height: calc(100vh - 80px);/*使背景符合100%瀏覽器大小，並扣除nav的80高度*/
     /*height: 787px;*/
@@ -251,26 +251,26 @@ nav li a:hover{
     background-repeat: no-repeat;
 }
 
-.header-bg .container{
+.banner-bg .container{
     height: 100%;
 }
-.header-text{
+.banner-text{
     text-align: right;
 }
 
-.header-text p{
+.banner-text p{
     font-size: 36px;
     color: #650300;
 }
 
-.header-text h1{
+.banner-text h1{
     font-size: 64px;
     color: #650300;
     letter-spacing: 0px;
     font-weight: bold;
 }
 
-.header-btn{
+.banner-btn{
     font-size: 20px;
     color: #FFFFFF;
     width: 104px;
@@ -279,27 +279,27 @@ nav li a:hover{
     padding: 6px 12px;
 }
 
-.header-btn:hover{
+.banner-btn:hover{
     background: #650300;
  }
 
- /* header RWD */
+ /* banner RWD */
 
 @media (max-width: 768px) {
 
-    .header-bg{
+    .banner-bg{
         background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
     }
 
-    .header-text{
+    .banner-text{
         display: block;
     }
     
-    .header-text p{
+    .banner-text p{
         font-size: 16px;
     }
 
-    .header-text h1{
+    .banner-text h1{
         font-size: 24px;
     }
 }
